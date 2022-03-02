@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "factor_emisions",
+  "info": {
+    "singularName": "factor-emision",
+    "pluralName": "factor-emisions",
+    "displayName": "FactorEmision",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descripcion": {
+      "type": "string",
+      "required": true
+    },
+    "unidad_medida": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unidad-medida.unidad-medida"
+    },
+    "gas_efecto_invernadero": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gas-efecto-invernadero.gas-efecto-invernadero",
+      "inversedBy": "factor_emision"
+    }
+  }
+}

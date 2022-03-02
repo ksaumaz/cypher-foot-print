@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gas_efecto_invernaderos",
+  "info": {
+    "singularName": "gas-efecto-invernadero",
+    "pluralName": "gas-efecto-invernaderos",
+    "displayName": "GasEfectoInvernadero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "nomenclatura": {
+      "type": "string"
+    },
+    "factor_emision": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::factor-emision.factor-emision",
+      "mappedBy": "gas_efecto_invernadero"
+    },
+    "global_warming_potential": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::global-warming-potential.global-warming-potential",
+      "inversedBy": "gas_efecto_invernadero"
+    }
+  }
+}

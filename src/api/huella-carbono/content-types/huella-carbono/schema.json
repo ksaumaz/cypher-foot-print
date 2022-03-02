@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "huella_carbonos",
+  "info": {
+    "singularName": "huella-carbono",
+    "pluralName": "huella-carbonos",
+    "displayName": "HuellaCarbono",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "resultado": {
+      "type": "decimal"
+    },
+    "horasConsumo": {
+      "type": "decimal"
+    },
+    "correoElectronico": {
+      "type": "email"
+    },
+    "fecha": {
+      "type": "datetime"
+    },
+    "categoria": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::categoria.categoria"
+    },
+    "dispositivo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::dispositivo.dispositivo"
+    },
+    "unidad_medida": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unidad-medida.unidad-medida"
+    },
+    "gas_efecto_invernadero": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gas-efecto-invernadero.gas-efecto-invernadero"
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
