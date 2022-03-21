@@ -6,7 +6,7 @@ module.exports = [
     config : {
       enabled: true,
       header: '*',
-      origin : ['http://localhost:3000']
+      origin : ['http://localhost:3000','https://carbon-print.herokuapp.com/']
     }
   },
   'strapi::poweredBy',
