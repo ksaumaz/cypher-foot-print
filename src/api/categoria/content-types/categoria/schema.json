@@ -15,6 +15,12 @@
     "descripcion": {
       "type": "string",
       "required": true
+    },
+    "dispositivos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::dispositivo.dispositivo",
+      "mappedBy": "categoria"
     }
   }
 }

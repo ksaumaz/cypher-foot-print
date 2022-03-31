@@ -24,11 +24,6 @@
     "fecha": {
       "type": "datetime"
     },
-    "categoria": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::categoria.categoria"
-    },
     "dispositivo": {
       "type": "relation",
       "relation": "oneToOne",
