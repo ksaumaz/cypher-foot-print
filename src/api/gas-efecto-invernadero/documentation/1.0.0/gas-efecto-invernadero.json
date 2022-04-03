@@ -4,6 +4,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -594,11 +595,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/gas-efecto-invernaderos"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1085,6 +1087,7 @@
           "Gas-efecto-invernadero"
         ],
         "parameters": [],
+        "operationId": "post/gas-efecto-invernaderos",
         "requestBody": {
           "required": true,
           "content": {
@@ -1110,6 +1113,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1607,11 +1611,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/gas-efecto-invernaderos/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2109,6 +2114,7 @@
             }
           }
         ],
+        "operationId": "put/gas-efecto-invernaderos/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -2177,6 +2183,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2347,7 +2354,7 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/gas-efecto-invernaderos/{id}"
       }
     }
   }

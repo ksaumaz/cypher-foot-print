@@ -4,6 +4,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -838,11 +839,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/dispositivos"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1573,6 +1575,7 @@
           "Dispositivo"
         ],
         "parameters": [],
+        "operationId": "post/dispositivos",
         "requestBody": {
           "required": true,
           "content": {
@@ -1598,6 +1601,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2339,11 +2343,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/dispositivos/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -3085,6 +3090,7 @@
             }
           }
         ],
+        "operationId": "put/dispositivos/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -3171,6 +3177,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -3341,7 +3348,7 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/dispositivos/{id}"
       }
     }
   }

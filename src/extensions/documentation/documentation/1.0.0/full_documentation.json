@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-04-03T20:17:56.177Z"
+    "x-generation-date": "2022-04-03T21:09:11.193Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -54,6 +54,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -867,11 +868,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/categorias"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1581,6 +1583,7 @@
           "Categoria"
         ],
         "parameters": [],
+        "operationId": "post/categorias",
         "requestBody": {
           "required": true,
           "content": {
@@ -1606,6 +1609,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2326,11 +2330,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/categorias/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -3051,6 +3056,7 @@
             }
           }
         ],
+        "operationId": "put/categorias/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -3122,6 +3128,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -3292,13 +3299,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/categorias/{id}"
       }
     },
     "/dispositivos": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -4133,11 +4141,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/dispositivos"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -4868,6 +4877,7 @@
           "Dispositivo"
         ],
         "parameters": [],
+        "operationId": "post/dispositivos",
         "requestBody": {
           "required": true,
           "content": {
@@ -4893,6 +4903,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -5634,11 +5645,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/dispositivos/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -6380,6 +6392,7 @@
             }
           }
         ],
+        "operationId": "put/dispositivos/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -6466,6 +6479,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -6636,13 +6650,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/dispositivos/{id}"
       }
     },
     "/gas-efecto-invernaderos": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -7233,11 +7248,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/gas-efecto-invernaderos"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -7724,6 +7740,7 @@
           "Gas-efecto-invernadero"
         ],
         "parameters": [],
+        "operationId": "post/gas-efecto-invernaderos",
         "requestBody": {
           "required": true,
           "content": {
@@ -7749,6 +7766,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -8246,11 +8264,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/gas-efecto-invernaderos/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -8748,6 +8767,7 @@
             }
           }
         ],
+        "operationId": "put/gas-efecto-invernaderos/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -8816,6 +8836,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -8986,13 +9007,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/gas-efecto-invernaderos/{id}"
       }
     },
     "/huella-carbonos": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -9914,11 +9936,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/huella-carbonos"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -10736,6 +10759,7 @@
           "Huella-carbono"
         ],
         "parameters": [],
+        "operationId": "post/huella-carbonos",
         "requestBody": {
           "required": true,
           "content": {
@@ -10761,6 +10785,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -11589,11 +11614,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/huella-carbonos/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -12422,6 +12448,7 @@
             }
           }
         ],
+        "operationId": "put/huella-carbonos/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -12528,6 +12555,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -12698,13 +12726,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/huella-carbonos/{id}"
       }
     },
     "/unidad-medidas": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -13287,11 +13316,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/unidad-medidas"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -13770,6 +13800,7 @@
           "Unidad-medida"
         ],
         "parameters": [],
+        "operationId": "post/unidad-medidas",
         "requestBody": {
           "required": true,
           "content": {
@@ -13795,6 +13826,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -14284,11 +14316,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/unidad-medidas/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -14778,6 +14811,7 @@
             }
           }
         ],
+        "operationId": "put/unidad-medidas/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -14838,6 +14872,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -15008,13 +15043,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/unidad-medidas/{id}"
       }
     },
     "/email": {
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -15193,6 +15229,7 @@
           "Email"
         ],
         "parameters": [],
+        "operationId": "post/email",
         "requestBody": {
           "required": true,
           "content": {
@@ -15218,6 +15255,7 @@
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -15396,6 +15434,7 @@
           "Email"
         ],
         "parameters": [],
+        "operationId": "post/email/test",
         "requestBody": {
           "required": true,
           "content": {
@@ -15421,6 +15460,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -15599,13 +15639,14 @@
           "Email"
         ],
         "parameters": [],
-        "requestBody": {}
+        "operationId": "get/email/settings"
       }
     },
     "/upload": {
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -16133,6 +16174,7 @@
           "Upload - file"
         ],
         "parameters": [],
+        "operationId": "post/upload",
         "requestBody": {
           "required": true,
           "content": {
@@ -16174,6 +16216,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -16701,13 +16744,14 @@
           "Upload - file"
         ],
         "parameters": [],
-        "requestBody": {}
+        "operationId": "get/upload/files/count"
       }
     },
     "/upload/files": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -17339,13 +17383,14 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/upload/files"
       }
     },
     "/upload/files/{id}": {
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -17884,11 +17929,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/upload/files/{id}"
       },
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -18059,7 +18105,7 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/upload/files/{id}"
       }
     }
   }
