@@ -18,18 +18,6 @@
     },
     "nomenclatura": {
       "type": "string"
-    },
-    "factor_emision": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::factor-emision.factor-emision",
-      "mappedBy": "gas_efecto_invernadero"
-    },
-    "global_warming_potential": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::global-warming-potential.global-warming-potential",
-      "inversedBy": "gas_efecto_invernadero"
     }
   }
 }
