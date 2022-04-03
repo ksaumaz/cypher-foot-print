@@ -18,6 +18,12 @@
     },
     "nomenclatura": {
       "type": "string"
+    },
+    "factorEmision": {
+      "type": "decimal"
+    },
+    "globalWarmingPotential": {
+      "type": "decimal"
     }
   }
 }

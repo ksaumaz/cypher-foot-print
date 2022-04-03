@@ -27,6 +27,11 @@
       "relation": "manyToOne",
       "target": "api::categoria.categoria",
       "inversedBy": "dispositivos"
+    },
+    "unidad_medida": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unidad-medida.unidad-medida"
     }
   }
 }
